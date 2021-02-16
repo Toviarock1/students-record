@@ -12,8 +12,7 @@
             students += '<td>' + value.marks_subject4 + '</td>';
             students += '<td>' + value.marks_subject5 + '</td>';
             students += '<td>' + Number(value.marks_subject1 + value.marks_subject2 + value.marks_subject3 + value.marks_subject4 + value.marks_subject5) + '/30</td>';
-            students += '</tr>'
-            console.log(students)
+            students += '</tr>';
             $('#studentdatabase').append(students);
         });//end each
        

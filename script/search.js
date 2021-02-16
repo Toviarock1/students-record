@@ -21,12 +21,8 @@ const onFormSubmit = () => {
                     students += '<td>' + value.marks_subject5 + '</td>';
                     students += '<td>' + toNumber + '/30</td>';
                     students += '</tr><button>h</button>'  
-                    console.log(students);
-                    console.log(t);
                     $('#searchstudent').append(students);
                     $('#text').val('');
-                    // doc.text(t);
-                    // doc.save("test.pdf");
                 }//end if else
             })//end each
         
