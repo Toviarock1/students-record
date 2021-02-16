@@ -1,0 +1,52 @@
+[
+    {
+        "students_name" : "Daniel Adama",
+        "number" : "08056595397",
+        "email_id" : "DanielAdama@gmail.com",
+        "marks_subject1" : 2,
+        "marks_subject2" : 4,
+        "marks_subject3" : 6,
+        "marks_subject4" : 8,
+        "marks_subject5" : 10
+    },
+    {
+        "students_name" : "Simon Adama",
+        "number" : "08056595398",
+        "email_id" : "SimonAdama@gmail.com",
+        "marks_subject1" : 2,
+        "marks_subject2" : 4,
+        "marks_subject3" : 5,
+        "marks_subject4" : 8,
+        "marks_subject5" : 10
+    },
+    {
+        "students_name" : "Jessica Adama",
+        "number" : "08056595396",
+        "email_id" : "JessicaAdama@gmail.com",
+        "marks_subject1" : 2,
+        "marks_subject2" : 4,
+        "marks_subject3" : 4,
+        "marks_subject4" : 8,
+        "marks_subject5" : 10
+    },
+    {
+        "students_name" : "aram Adama",
+        "number" : "08056595394",
+        "email_id" : "aramAdama@gmail.com",
+        "marks_subject1" : 2,
+        "marks_subject2" : 3,
+        "marks_subject3" : 4,
+        "marks_subject4" : 8,
+        "marks_subject5" : 10
+    },
+    {
+        "students_name" : "navabi inish",
+        "number" : "08056595393",
+        "email_id" : "navabiAdama@gmail.com",
+        "marks_subject1" : 2,
+        "marks_subject2" : 3,
+        "marks_subject3" : 4,
+        "marks_subject4" : 6,
+        "marks_subject5" : 10
+    }
+]

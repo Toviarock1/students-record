@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students Search</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.debug.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>search students record</h1>
+        <P>please Input Either A Student Fullname(e.g simon adama) , Number(e.g 08056595398) , Email(e.g tt@gmail.com) Or Total Score(e.g 30)  Note You Can Only Input Only One Of The Above Type</P>
+        <div id="userinput">
+            <input type="text" id="text" name="text">
+            <input type="submit" onclick="onFormSubmit()" class="style" value="search">
+        </div>
+        <div class="table">
+            <table id="searchstudent">
+                <tr>
+                    <th>Student name</th>
+                    <th>Number</th>
+                    <th>Email</th>
+                    <th>Marks_subject1</th>
+                    <th>Marks_subject2</th>
+                    <th>Marks_subject3</th>
+                    <th>Marks_subject4</th>
+                    <th>Marks_subject5</th>
+                    <th>Total mark</th>
+                </tr>
+            </table>
+        </div>
+        <div id="downloadbtn">
+            <button class="style" onclick="download()">Download Student Record</button>
+        </div>
+        <a href="index.html">Back To Students Record</a>
+    </div>
+    <footer>&copy;2020 simon adama</footer>
+    <script src="script/jquery-3.5.1.min.js"></script>
+    <script src="script/search.js"></script>
+</body>
+</html>
